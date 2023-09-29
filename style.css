@@ -1,0 +1,56 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+p{
+  font-size: 1.3rem;
+}
+
+header{
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  border-bottom: 0.2rem solid black;
+}
+
+header ol, header li{
+  list-style: none;
+  display: inline;
+  font-size: 0.8rem;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  padding: 0.5rem;
+  border: 0.1rem solid red;
+  background-color: blue;
+  border-radius: 1.5rem;
+  margin: 1.5rem;
+}
+
+header a:hover{
+  background-color: white;
+  color: red;
+  border-color: darkgoldenrod;
+}
+
+.voltar{
+  font-size:1rem; 
+}
+
+.img{
+  width: 35rem;
+}
